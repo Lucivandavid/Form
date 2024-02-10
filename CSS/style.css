@@ -1,0 +1,130 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-size: 17px;
+}
+body{
+    background-color: #f6fdff;
+}
+h1,h2,h3.h4,h5{
+    color: #333;
+}
+
+p, label{
+    color: #444;
+}
+input{
+    border: none;
+    border-bottom:1px solid #ccc ;
+    padding: 10px 0px;
+}
+input[type="text"],
+input[typa="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+}
+/*page head*/
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #2d8ae7;
+}
+.header h3{
+    color: #fff;
+    margin-top: 0;
+}
+
+/*form container*/
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: -65px;
+
+}
+
+.form-container p{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+/*fomr header*/
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+.form-header p{
+    color: #2d8ae7;
+    border-bottom: 2px solid #2d8ae7;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+/*form body*/
+
+.form-body{
+    padding: 30px;
+}
+.form-title{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.form-body p{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.required-field{
+    color: red;
+}
+
+.box-input{
+    margin-bottom: 30px;
+}
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0 30px ;
+    
+}
+.optional-list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.btn-submit{
+    background-color: #2d8ae7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0,5s;
+}
+.btn-submit:hover{
+    background-color: #fff;
+    color: #2d8ae7;
+    border-color: #2d8ae7;
+}
